@@ -93,9 +93,44 @@ After gathering feedback from the server team, the policy is revised, addressing
 
 The team collaborates with the server team to initiate scheduled credential scans. A compromise is reached to scan a single server first, monitoring resource impact, and using just-in-time Active Directory credentials for secure, controlled access.  
 
-<a href='https://youtu.be/lg068WA4SKM' target="_"><img width="600" alt="image" src="https://github.com/user-attachments/assets/31fe8d0f-636b-475b-8d5a-a2795c183f86"></a>
+# Vulnerability Scanning Discussion  
 
-[YouTube Video: Initial Discovery Scan](https://youtu.be/lg068WA4SKM)
+## Participants  
+- **Josh**  
+- **Jimmy**  
+
+## Conversation  
+
+**Josh:** *Good morning, Jimmy.*  
+
+**Jimmy:** *Good morning! I heard you're ready to conduct some scans.*  
+
+**Josh:** *Yep! Now that our vulnerability management policy is in place, I want to start scheduled credential scans of your environment.*  
+
+**Jimmy:** *Sounds good to me. What’s involved, and how can we help?*  
+
+**Josh:** *We’re planning to schedule weekly scans of the server infrastructure. It should take about 4 to 6 hours to scan all 2,200 assets. We’ll need administrative credentials so the scan engine can remotely log in and assess the targets.*  
+
+**Jimmy:** *Hold on—what exactly does scanning entail? I’m a bit concerned about resource utilization. Also, you need admin credentials for all 200 machines? That doesn’t sound safe.*  
+
+**Josh:** *Those are valid concerns. The scan engine sends different types of traffic to the servers to check for vulnerabilities, such as outdated software, insecure protocols, or weak ciphers. It also looks into the registry to assess system security, which is why credentials are required.*  
+
+**Jimmy:** *I see. As long as it doesn’t take the servers offline, we should be okay.*  
+
+**Josh:** *Absolutely. Let’s start by scanning a single server and monitor resource utilization.*  
+
+**Jimmy:** *Not a bad idea.*  
+
+**Josh:** *Also, for the credentials, can you set up an Active Directory account for us? You can keep it disabled until we’re ready to scan, then enable it during the scan and disable it afterward. Kind of like a just-in-time access setup.*  
+
+**Jimmy:** *That sounds good. I’ll ask Susan to get started on automating the account provisioning.*  
+
+**Josh:** *Awesome. Talk soon!*  
+
+**Jimmy:** *Sounds good. I’ll get back to you once the credentials are set up. See you later!*  
+
+**Josh:** *See you later!*  
+
 
 ---
 
