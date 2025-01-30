@@ -48,9 +48,34 @@ This phase focuses on drafting a Vulnerability Management Policy as a starting p
 
 In this phase, a meeting with the server team introduces the draft Vulnerability Management Policy and assesses their capability to meet remediation timelines. Feedback leads to adjustments, like extending the critical remediation window from 48 hours to one week, ensuring collaborative implementation.
 
-<a href='https://youtu.be/8g6uafc6LjE' target="_"><img width="600" alt="image" src="https://github.com/user-attachments/assets/549d21f4-26c2-412d-9117-d7b6835aedbf"></a>
+# Policy Remediation Discussion  
 
-[YouTube Video: Stakeholder Policy Buy-In Meeting](https://youtu.be/8g6uafc6LjE)
+## Participants  
+- **Josh**  
+- **Jimmy**  
+
+## Conversation  
+
+**Josh:** *Hey, good morning, Jimmy. How’s everything been? I know everyone’s been busy these last few weeks.*  
+
+**Jimmy:** *Good morning, Josh. Yeah, it’s been a bit hectic, but we’re hanging in there. Thanks for asking. I had a chance to read through the policy draft, and overall, it makes sense. However, with our current staffing, we can’t meet the aggressive remediation timelines—especially the 48-hour window for critical vulnerabilities.*  
+
+**Josh:** *Yeah, I totally understand. It is a bit aggressive, especially to start. Perhaps we can extend the critical vulnerability deadline to one week as a compromise for now. We could then reserve the 48-hour window for truly severe zero-day vulnerabilities.*  
+
+**Jimmy:** *That sounds reasonable. We appreciate the flexibility. Can we also have some leeway in the beginning as we get used to the remediation and patching process? Maybe just for the first few months?*  
+
+**Josh:** *Absolutely. After the policy is finalized, we’ll officially start the program, but we’re planning to give all departments about six months to adjust and get comfortable with the new process. Does that sound fair?*  
+
+**Jimmy:** *Thanks, Josh. We’ll do our best. I appreciate you including us in the decision-making process—it really helps us feel like we’re part of the solution.*  
+
+**Josh:** *Of course! We’re all in this together. Thanks for working with us.*  
+
+**Jimmy:** *No problem. Thanks for the quick meeting.*  
+
+**Josh:** *Yeah, those are my favorite types. Bye now!*  
+
+**Jimmy:** *See you later!*  
+
 
 ---
 
