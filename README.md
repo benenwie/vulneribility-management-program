@@ -172,9 +172,69 @@ The server team received remediation scripts and scan reports to address key vul
 
 The server team reviewed vulnerability scan results, identifying outdated software, insecure accounts, and deprecated protocols. The remediation packages were prepared for submission to the Change Control Board (CAB). 
 
-<a href="https://youtu.be/0tjjFewxSNw" target="_"><img width="600" src="https://github.com/user-attachments/assets/03027c66-5f7c-42d0-b6dd-09d053c040b1"/></a>
+# Vulnerability Scan Review & Remediation Plan  
 
-[Meeting Video](https://youtu.be/0tjjFewxSNw)
+## Participants  
+- **Josh**  
+- **Jimmy**  
+
+## Conversation  
+
+### Scan Results  
+
+**Josh:** *Good morning, Jimmy! How are you doing?*  
+
+**Jimmy:** *Not bad for a Monday. And you?*  
+
+**Josh:** *Still alive, so I can't complain! Before we get into the vulnerabilities, how did the actual scan go? Any outages or resource overutilization?*  
+
+**Jimmy:** *The scan went well. We were monitoring the systems, and aside from the open connections, we wouldn’t have even known a scan was happening.*  
+
+**Josh:** *That’s great news! As expected, no major resource utilization issues. We’ll continue monitoring, but I don’t foresee any problems. Do you mind if we dive into the vulnerability findings?*  
+
+**Jimmy:** *Absolutely, go ahead.*  
+
+**Josh:** *I’ll share my screen. The majority of vulnerabilities are due to outdated installations of Wireshark. It’s significantly out of date and needs to be updated or removed.*  
+
+### Key Findings  
+
+1. **Wireshark Installations:**  
+   - Outdated versions present across multiple servers.  
+
+2. **Local Guest Account Permissions:**  
+   - The local guest account is part of the **Local Administrators** group.  
+   - Needs investigation and potential removal.  
+
+3. **Software & OS Updates:**  
+   - Some vulnerabilities, such as **Microsoft Edge Chromium**, may be automatically resolved with Windows updates.  
+
+4. **TLS & Cipher Suite Issues:**  
+   - **Deprecated Cipher Suites (Medium Strength).**  
+   - **TLS 1.0 and 1.1 detected (deprecated protocols).**  
+   - These need remediation to align with security best practices.  
+
+### Remediation Plan  
+
+**Jimmy:** *Interesting findings. The good news is that most of our servers probably have the same vulnerabilities, so remediation should be uniform.*  
+
+**Josh:** *That’s actually a plus—it simplifies the fix. Do you foresee any challenges in remediating the cipher suites and insecure protocols?*  
+
+**Jimmy:** *I highly doubt there will be issues. We’ll run it through the Change Control Board. As for Wireshark and the guest account, those shouldn’t be on the servers in the first place, so removing them won’t be a problem. I’ll check with our CIS admins about the guest account.*  
+
+**Josh:** *Sounds good. I’ll start building remediation packages to make fixing these easier.*  
+
+### Patch Management & Next Steps  
+
+**Jimmy:** *By the way, do you have anything in place for handling Windows Update-related vulnerabilities?*  
+
+**Josh:** *Yes, our patch management should take care of those automatically by next week.*  
+
+**Jimmy:** *Perfect. I’ll research the best ways to remediate these issues and get back to you before the next Change Control Board.*  
+
+**Jimmy:** *Sounds good. Talk to you soon!*  
+
+**Josh:** *Cool, talk to you soon!*  
+)
 
 ---
 
